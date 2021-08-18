@@ -14,5 +14,17 @@
 		<url-pattern>/simple</url-pattern>
 	</servlet-mapping>
 	
+	<!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+	
+	<servlet>
+		<servlet-name>ControllerUsingFile</servlet-name>
+		<servlet-class>mvc.controller.ControllerUsingFile</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ControllerUsingFile</servlet-name>
+		<url-pattern>/controllerUsingFile</url-pattern>
+	</servlet-mapping>
+	
 	
 </web-app>	
